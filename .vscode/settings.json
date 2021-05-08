@@ -1,0 +1,12 @@
+{
+    "workbench.colorCustomizations": {
+        "editorBracketMatch.border": "#0000",
+        "editorBracketMatch.background": "#000",
+        "editorWarning.border": "#ff000000",
+        "editorError.border": "#ff000000",
+        "activityBar.background": "#3D1F14",
+        "titleBar.activeBackground": "#552B1B",
+        "titleBar.activeForeground": "#FDF9F8"
+    },
+    "rust-analyzer.inlayHints.enable": false
+}
