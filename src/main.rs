@@ -18,7 +18,7 @@ fn stop(mut exit_events: EventWriter<AppExit>){
 }
 
 fn despawn_children(mut commands: Commands, child_query: Query<(&SomeChild, Entity)>) {
-    // First time 3, after that 0 .
+    // First time 3, after that 0. (All good)
    println!("child_query.iter().len(): {}", child_query.iter().len());
    // Despawns all children
    child_query
